@@ -31,7 +31,8 @@ We adopt the Dijkstra algorithm implemtned in python-graph library, you can foll
    git clone https://github.com/yulequan/EC-Net.git
    cd EC-Net
    ```
-2. Compile the TF operators
+2. Compile the TF operators:
+
    Follow the above information to compile the TF operators. 
    
 3. Train the model:
@@ -42,6 +43,7 @@ We adopt the Dijkstra algorithm implemtned in python-graph library, you can foll
    ```
 
 4. Evaluate the model:
+
     We provide the pretrained model in folder 'model/pretrain'.
     To evaluate the model, you need to put the test point cloud file (in .xyz format) in folder 'eval_input'.
     Then run:
