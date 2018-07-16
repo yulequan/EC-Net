@@ -1,0 +1,9 @@
+python compile file
+*.pyc
+utils/*.pyc
+# Editor temporaries
+*.swp
+*~
+.idea/*
+
+
