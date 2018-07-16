@@ -21,7 +21,7 @@ First, find Tensorflow include and library paths.
         
 Then, add flags of `-I$TF_INC/external/nsync/public -L$TF_LIB -ltensorflow_framework` to the `g++` commands.
 
-We adopt the Dijkstra algorithm implemtned in python-graph library, you can follow the instruction in [here](https://github.com/wting/python-graph) to install it. 
+We adopt the Dijkstra algorithm implemented in python-graph library, you can follow the instruction in [here](https://github.com/wting/python-graph) to install it. 
 
 ### Usage
 
@@ -44,9 +44,10 @@ We adopt the Dijkstra algorithm implemtned in python-graph library, you can foll
 
 4. Evaluate the model:
 
-    We provide the pretrained model in folder 'model/pretrain'.
-    To evaluate the model, you need to put the test point cloud file (in .xyz format) in folder 'eval_input'.
-    Then run:
+   We provide the pretrained model in folder `model/pretrain`.
+   To evaluate the model, you need to put the test point clouds (in .xyz format) in the folder `eval_input`.
+   
+   Then run:
    ```shell
    cd code
    python main.py --phase test --log_dir ../model/pretrain
