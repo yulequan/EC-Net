@@ -1,9 +1,9 @@
-# EC-Net: an Edge-aware Point set Consolidation Network [Paper](https://yulequan.github.io/papers/ECCV18_EC-Net.pdf)
-by [Lequan Yu](https://yulequan.github.io/), Xianzhi Li, [Chi-Wing Fu](http://www.cse.cuhk.edu.hk/~cwfu/), [Daniel Cohen-Or](https://www.cs.tau.ac.il/~dcor/), [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng/). 
+# EC-Net: an Edge-aware Point set Consolidation Network
+by [Lequan Yu](https://yulequan.github.io/), Xianzhi Li, [Chi-Wing Fu](http://www.cse.cuhk.edu.hk/~cwfu/), [Daniel Cohen-Or](https://www.cs.tau.ac.il/~dcor/), [Pheng-Ann Heng](http://www.cse.cuhk.edu.hk/~pheng/). Details are in [project page](https://yulequan.github.io/ec-net).
 
 ### Introduction
 
-This repository is for our ECCV 2018 paper '[EC-Net: an Edge-aware Point set Consolidation Network](https://yulequan.github.io/ec-net/index.html)'. This project is based on our previous project [PU-Net](https://github.com/yulequan/PU-Net). 
+This repository is for our ECCV 2018 paper '[EC-Net: an Edge-aware Point set Consolidation Network](https://yulequan.github.io/papers/ECCV18_EC-Net.pdf)'. This project is based on our previous project [PU-Net](https://github.com/yulequan/PU-Net). 
 
 ### Installation
 This repository is based on Tensorflow and the TF operators from PointNet++. Therefore, you need to install tensorflow and compile the TF operators. 
