@@ -4,6 +4,6 @@ utils/*.pyc
 # Editor temporaries
 *.swp
 *~
-.idea/*
+code/.idea/*
 
 
