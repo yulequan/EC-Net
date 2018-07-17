@@ -336,8 +336,8 @@ class Network(object):
                 end = time.time()
                 print "total time: ",end-start
 
-                path = os.path.join(save_path, point_path.split('/')[-1][:-4] + "_input.xyz")
-                data_provider.save_xyz(path, gm.data)
+                #path = os.path.join(save_path, point_path.split('/')[-1][:-4] + "_input.xyz")
+                #data_provider.save_xyz(path, gm.data)
 
                 path = os.path.join(save_path, point_path.split('/')[-1][:-4] + "_output.xyz")
                 data_provider.save_xyz(path, pred)
