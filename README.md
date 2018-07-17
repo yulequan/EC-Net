@@ -39,7 +39,7 @@ We adopt the Dijkstra algorithm implemented in python-graph library, you can fol
  
    ```shell
    cd code
-   python main.py --phase train --gpu 0
+   python main.py --phase train --gpu 0 --log_dir ../model/myownmodel
    ```
 
 4. Evaluate the model:
